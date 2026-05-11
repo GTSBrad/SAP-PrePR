@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE">
-    <sys_id>00214253934d432dabbdc0a3161c9087</sys_id>
-    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
-    <sys_update_name>sys_security_acl_role_00214253934d432dabbdc0a3161c9087</sys_update_name>
-    <sys_security_acl>eaf469f9745749d9a81f44d3ac3ea857</sys_security_acl>
-    <sys_user_role name="x_1339198_sap_pr_0.user">a37a5318f09f49d2ab533c472ada73ec</sys_user_role>
-  </sys_security_acl_role>
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 18:43:52</sys_created_on>
+        <sys_id>00214253934d432dabbdc0a3161c9087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1339198_sap_pr_0_line_item.</sys_name>
+        <sys_package display_value="SAP PrePR" source="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SAP PrePR">be4c55e983fc03108007c810feaad30a</sys_scope>
+        <sys_security_acl display_value="x_1339198_sap_pr_0_line_item">eaf469f9745749d9a81f44d3ac3ea857</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_00214253934d432dabbdc0a3161c9087</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 18:43:52</sys_updated_on>
+        <sys_user_role display_value="x_1339198_sap_pr_0.user" name="x_1339198_sap_pr_0.user">a37a5318f09f49d2ab533c472ada73ec</sys_user_role>
+    </sys_security_acl_role>
 </record_update>

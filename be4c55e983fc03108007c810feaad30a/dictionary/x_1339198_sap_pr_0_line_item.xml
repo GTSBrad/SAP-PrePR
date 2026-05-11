@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element active="false" attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="563190be9aff4b309d50bd04e7b9feb4" label="PrePR Line Item" name="x_1339198_sap_pr_0_line_item" type="collection">
+        <element display="true" label="Item Number" mandatory="true" max_length="40" name="item_number" type="integer"/>
+        <element label="Plant" max_length="40" name="plant" type="string"/>
+        <element label="Service Code" max_length="100" name="service_code" type="string"/>
+        <element label="Service Quantity" max_length="20" name="service_quantity" type="decimal"/>
+        <element label="Material Group" max_length="100" name="material_group" type="string"/>
+        <element label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element label="Cost Center" max_length="100" name="cost_center" type="string"/>
+        <element label="PrePR Request" mandatory="true" max_length="32" name="prepr" reference="x_1339198_sap_pr_0_prepr" reference_cascade_rule="cascade" type="reference"/>
+        <element choice="1" label="Unit of Measure" max_length="40" name="unit_measure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Meter (M)" sequence="3" value="m"/>
+                <element inactive_on_update="false" label="Set (SET)" sequence="8" value="set"/>
+                <element inactive_on_update="false" label="Ton (TON)" sequence="9" value="ton"/>
+                <element inactive_on_update="false" label="Hour (HR)" sequence="5" value="hr"/>
+                <element inactive_on_update="false" label="Box (BOX)" sequence="7" value="box"/>
+                <element inactive_on_update="false" label="Each (EA)" sequence="0" value="ea"/>
+                <element inactive_on_update="false" label="Kilogram (KG)" sequence="1" value="kg"/>
+                <element inactive_on_update="false" label="Day (DAY)" sequence="6" value="day"/>
+                <element inactive_on_update="false" label="Liter (L)" sequence="2" value="l"/>
+                <element inactive_on_update="false" label="Piece (PC)" sequence="4" value="pc"/>
+            </choice>
+        </element>
+        <element label="Delivery Date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element choice="1" label="Account Category" max_length="40" name="account_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cost Center" sequence="1" value="cost_center_acct"/>
+                <element inactive_on_update="false" label="Order" sequence="2" value="order"/>
+                <element inactive_on_update="false" label="Asset" sequence="0" value="asset"/>
+                <element inactive_on_update="false" label="Project" sequence="3" value="project"/>
+            </choice>
+        </element>
+        <element label="Unit Price" mandatory="true" max_length="20" name="unit_price" type="decimal"/>
+        <element label="Purchase Group" max_length="100" name="purchase_group" type="string"/>
+        <element label="Total Price" max_length="20" name="total_price" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Quantity" mandatory="true" max_length="20" name="quantity" type="decimal"/>
+        <element label="Valuation Price" max_length="20" name="valuation_price" type="decimal"/>
+        <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Material" sequence="0" value="material"/>
+                <element inactive_on_update="false" label="Subcontracting" sequence="2" value="subcontracting"/>
+                <element inactive_on_update="false" label="Third Party" sequence="3" value="third_party"/>
+                <element inactive_on_update="false" label="Service" sequence="1" value="service"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="prepr"/>
+        </index>
+    </element>
+</database>

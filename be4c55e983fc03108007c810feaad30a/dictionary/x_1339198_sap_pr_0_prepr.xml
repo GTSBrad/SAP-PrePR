@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element active="false" attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f3c007481464496ca3b681a5292a9182" label="SAP PrePR" name="x_1339198_sap_pr_0_prepr" type="collection">
+        <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Subcontracting" sequence="2" value="subcontracting"/>
+                <element inactive_on_update="false" label="Material" sequence="0" value="material"/>
+                <element inactive_on_update="false" label="Third Party" sequence="3" value="third_party"/>
+                <element inactive_on_update="false" label="Service" sequence="1" value="service"/>
+            </choice>
+        </element>
+        <element label="Material Group Approver" max_length="32" name="material_group_approver" reference="sys_user" type="reference"/>
+        <element choice="1" default="not_started" label="Progress" max_length="40" name="progress" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="PrePR Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Cost Center" max_length="100" name="cost_center" type="string"/>
+        <element label="Purchase Group" max_length="100" name="purchase_group" type="string"/>
+        <element choice="1" label="Account Category" max_length="40" name="account_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Order" sequence="2" value="order"/>
+                <element inactive_on_update="false" label="Cost Center" sequence="1" value="cost_center_acct"/>
+                <element inactive_on_update="false" label="Project" sequence="3" value="project"/>
+                <element inactive_on_update="false" label="Asset" sequence="0" value="asset"/>
+            </choice>
+        </element>
+        <element label="Material Group" max_length="100" name="material_group" type="string"/>
+        <element label="P&amp;L Comments" max_length="4000" name="pl_comments" type="string"/>
+        <element label="Plant" max_length="40" name="plant" type="string"/>
+        <element display="true" label="Title" mandatory="true" max_length="200" name="title" type="string"/>
+        <element label="Total Value" max_length="20" name="total_value" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="PR Number" max_length="40" name="pr_number" type="string"/>
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted to SAP" sequence="4" value="submitted_to_sap"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending_approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element label="Purchase Group Approver" max_length="32" name="purchase_group_approver" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="material_group_approver"/>
+        </index>
+        <index name="index2">
+            <element name="purchase_group_approver"/>
+        </index>
+        <index name="index3">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>
