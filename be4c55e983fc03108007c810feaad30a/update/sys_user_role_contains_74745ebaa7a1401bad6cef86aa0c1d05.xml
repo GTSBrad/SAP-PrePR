@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE">
+    <sys_id>74745ebaa7a1401bad6cef86aa0c1d05</sys_id>
+    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+    <sys_update_name>sys_user_role_contains_74745ebaa7a1401bad6cef86aa0c1d05</sys_update_name>
+    <contains name="x_1339198_sap_pr_0.user">a37a5318f09f49d2ab533c472ada73ec</contains>
+    <role name="x_1339198_sap_pr_0.approver">077d2be75c7b45aa9ce56fd0175ff7bb</role>
+  </sys_user_role_contains>
+</record_update>

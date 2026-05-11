@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>510c57869a044d50b3a3978bd1a39961</sys_id>
+    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+    <sys_update_name>sys_app_module_510c57869a044d50b3a3978bd1a39961</sys_update_name>
+    <active>true</active>
+    <application>4900b0cc971f4d14ba996f5699d959a7</application>
+    <hint>Create and manage Pre-Purchase Requests</hint>
+    <link_type>DIRECT</link_type>
+    <order>100</order>
+    <query>x_1339198_sap_pr_0_portal.do</query>
+    <title>PrePR Portal</title>
+  </sys_app_module>
+</record_update>

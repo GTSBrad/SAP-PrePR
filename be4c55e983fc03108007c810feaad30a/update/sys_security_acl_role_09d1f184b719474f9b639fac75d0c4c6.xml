@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE">
+    <sys_id>09d1f184b719474f9b639fac75d0c4c6</sys_id>
+    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+    <sys_update_name>sys_security_acl_role_09d1f184b719474f9b639fac75d0c4c6</sys_update_name>
+    <sys_security_acl>1327edd800f8430ea728d80521f1d025</sys_security_acl>
+    <sys_user_role name="x_1339198_sap_pr_0.user">a37a5318f09f49d2ab533c472ada73ec</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

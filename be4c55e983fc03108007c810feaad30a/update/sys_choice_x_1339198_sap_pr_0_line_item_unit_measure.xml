@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="unit_measure" table="x_1339198_sap_pr_0_line_item">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>68a4442b7a364c0a9cc7e009164da22d</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Each (EA)</label>
+      <value>ea</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>7e3218fa69f1440488292b7dcfeeceb5</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Kilogram (KG)</label>
+      <value>kg</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>8aec59e905c14b7d99ebbeb67afab1cc</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Liter (L)</label>
+      <value>l</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>05a41dffb54e42cab4e4e640a22c3551</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Meter (M)</label>
+      <value>m</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>cb3818dc882443d7af3cb3625074e051</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Piece (PC)</label>
+      <value>pc</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>475bc42313f84b5da4918428ad13ec8c</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Hour (HR)</label>
+      <value>hr</value>
+      <sequence>5</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>87c33f9b7e29417fa27279079c4e52ee</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Day (DAY)</label>
+      <value>day</value>
+      <sequence>6</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>663f638ed0f74e81a67c2829af76eb34</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Box (BOX)</label>
+      <value>box</value>
+      <sequence>7</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>2cd49e7f2e8e4b068dfa25a73e6badb2</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Set (SET)</label>
+      <value>set</value>
+      <sequence>8</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>313028cfd7b446c28b43e7773df35173</sys_id>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+      <label>Ton (TON)</label>
+      <value>ton</value>
+      <sequence>9</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>84ebdeba5086408f93f3b9e53f08f426</sys_id>
+      <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+      <name>x_1339198_sap_pr_0_line_item</name>
+      <element>unit_measure</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

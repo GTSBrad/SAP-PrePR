@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>068f74af18bc405d81835dedd3de12c4</sys_id>
+    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+    <sys_update_name>sys_number_068f74af18bc405d81835dedd3de12c4</sys_update_name>
+    <category>x_1339198_sap_pr_0_prepr</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>PREPR</prefix>
+  </sys_number>
+</record_update>

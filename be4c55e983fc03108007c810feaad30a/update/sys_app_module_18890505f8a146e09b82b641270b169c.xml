@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>18890505f8a146e09b82b641270b169c</sys_id>
+    <sys_scope display_value="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_scope>
+    <sys_update_name>sys_app_module_18890505f8a146e09b82b641270b169c</sys_update_name>
+    <active>true</active>
+    <application>4900b0cc971f4d14ba996f5699d959a7</application>
+    <hint>View all PrePR Line Items</hint>
+    <link_type>LIST</link_type>
+    <name>x_1339198_sap_pr_0_line_item</name>
+    <order>300</order>
+    <title>Line Items</title>
+  </sys_app_module>
+</record_update>
