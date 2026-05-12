@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element active="false" attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="563190be9aff4b309d50bd04e7b9feb4" label="PrePR Line Item" name="x_1339198_sap_pr_0_line_item" type="collection">
+    <element active="false" db_object_id="563190be9aff4b309d50bd04e7b9feb4" label="PrePR Line Item" name="x_1339198_sap_pr_0_line_item" type="collection">
         <element display="true" label="Item Number" mandatory="true" max_length="40" name="item_number" type="integer"/>
-        <element label="Plant" max_length="40" name="plant" type="string"/>
+        <element choice="1" label="Plant" max_length="40" name="plant" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2000 - Distribution Center" sequence="1" value="plant_2000"/>
+                <element inactive_on_update="false" label="1000 - Main Manufacturing" sequence="0" value="plant_1000"/>
+                <element inactive_on_update="false" label="4000 - Warehouse" sequence="3" value="plant_4000"/>
+                <element inactive_on_update="false" label="3000 - R&amp;D Facility" sequence="2" value="plant_3000"/>
+                <element inactive_on_update="false" label="5000 - Service Center" sequence="4" value="plant_5000"/>
+                <element inactive_on_update="false" label="6000 - Regional Office" sequence="5" value="plant_6000"/>
+                <element inactive_on_update="false" label="7000 - Quality Lab" sequence="6" value="plant_7000"/>
+            </choice>
+        </element>
         <element label="Service Code" max_length="100" name="service_code" type="string"/>
         <element label="Service Quantity" max_length="20" name="service_quantity" type="decimal"/>
-        <element label="Material Group" max_length="100" name="material_group" type="string"/>
+        <element label="Material Group" max_length="32" name="material_group" reference="sys_user_group" type="reference"/>
         <element label="Description" mandatory="true" max_length="500" name="description" type="string"/>
-        <element label="Cost Center" max_length="100" name="cost_center" type="string"/>
+        <element label="Cost Center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
         <element label="PrePR Request" mandatory="true" max_length="32" name="prepr" reference="x_1339198_sap_pr_0_prepr" reference_cascade_rule="cascade" type="reference"/>
         <element choice="1" label="Unit of Measure" max_length="40" name="unit_measure" type="choice">
             <choice>
@@ -32,8 +42,8 @@
             </choice>
         </element>
         <element label="Unit Price" mandatory="true" max_length="20" name="unit_price" type="decimal"/>
-        <element label="Purchase Group" max_length="100" name="purchase_group" type="string"/>
-        <element label="Total Price" max_length="20" name="total_price" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Purchase Group" max_length="32" name="purchase_group" reference="sys_user_group" type="reference"/>
+        <element label="Total Price" max_length="20" name="total_price" type="decimal"/>
         <element label="Quantity" mandatory="true" max_length="20" name="quantity" type="decimal"/>
         <element label="Valuation Price" max_length="20" name="valuation_price" type="decimal"/>
         <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">

@@ -27,16 +27,16 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
+        <max_length>32</max_length>
         <name>x_1339198_sap_pr_0_line_item</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_only_option/>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="cmn_cost_center">cmn_cost_center</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>

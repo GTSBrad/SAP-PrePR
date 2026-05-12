@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="plant" table="x_1339198_sap_pr_0_line_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>plant</element>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>plant</sys_name>
+            <sys_package display_value="SAP PrePR" source="x_1339198_sap_pr_0">be4c55e983fc03108007c810feaad30a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP PrePR">be4c55e983fc03108007c810feaad30a</sys_scope>
+            <sys_update_name>sys_choice_x_1339198_sap_pr_0_line_item_plant</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1000 - Main Manufacturing</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_1000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2000 - Distribution Center</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_2000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3000 - R&amp;D Facility</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_3000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4000 - Warehouse</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_4000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5000 - Service Center</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_5000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6000 - Regional Office</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_6000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7000 - Quality Lab</label>
+            <language>en</language>
+            <name>x_1339198_sap_pr_0_line_item</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:49:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:49:47</sys_updated_on>
+            <value>plant_7000</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element active="false" attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f3c007481464496ca3b681a5292a9182" label="SAP PrePR" name="x_1339198_sap_pr_0_prepr" type="collection">
+    <element active="false" db_object_id="f3c007481464496ca3b681a5292a9182" label="SAP PrePR" name="x_1339198_sap_pr_0_prepr" type="collection">
         <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Subcontracting" sequence="2" value="subcontracting"/>
@@ -16,9 +16,9 @@
                 <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
             </choice>
         </element>
-        <element default="javascript:global.getNextObjNumberPadded();" label="PrePR Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
-        <element label="Cost Center" max_length="100" name="cost_center" type="string"/>
-        <element label="Purchase Group" max_length="100" name="purchase_group" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="PrePR Number" max_length="40" name="number" type="string"/>
+        <element label="Cost Center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element label="Purchase Group" max_length="32" name="purchase_group" reference="sys_user_group" type="reference"/>
         <element choice="1" label="Account Category" max_length="40" name="account_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Order" sequence="2" value="order"/>
@@ -27,11 +27,21 @@
                 <element inactive_on_update="false" label="Asset" sequence="0" value="asset"/>
             </choice>
         </element>
-        <element label="Material Group" max_length="100" name="material_group" type="string"/>
+        <element label="Material Group" max_length="32" name="material_group" reference="sys_user_group" type="reference"/>
         <element label="P&amp;L Comments" max_length="4000" name="pl_comments" type="string"/>
-        <element label="Plant" max_length="40" name="plant" type="string"/>
+        <element choice="1" label="Plant" max_length="40" name="plant" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3000 - R&amp;D Facility" sequence="2" value="plant_3000"/>
+                <element inactive_on_update="false" label="1000 - Main Manufacturing" sequence="0" value="plant_1000"/>
+                <element inactive_on_update="false" label="4000 - Warehouse" sequence="3" value="plant_4000"/>
+                <element inactive_on_update="false" label="2000 - Distribution Center" sequence="1" value="plant_2000"/>
+                <element inactive_on_update="false" label="6000 - Regional Office" sequence="5" value="plant_6000"/>
+                <element inactive_on_update="false" label="5000 - Service Center" sequence="4" value="plant_5000"/>
+                <element inactive_on_update="false" label="7000 - Quality Lab" sequence="6" value="plant_7000"/>
+            </choice>
+        </element>
         <element display="true" label="Title" mandatory="true" max_length="200" name="title" type="string"/>
-        <element label="Total Value" max_length="20" name="total_value" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Total Value" max_length="20" name="total_value" type="decimal"/>
         <element label="PR Number" max_length="40" name="pr_number" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="string"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
